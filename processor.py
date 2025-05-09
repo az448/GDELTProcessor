@@ -89,7 +89,7 @@ def reduce_worker(item):
 if __name__ == '__main__':
     #print("Script started")
     if len(sys.argv) != 4:
-        print("Usage: Usage: python3 processor.py <input_file> <num_mappers> <num_reducers>")
+        print("Usage: python3 processor.py <input_file> <num_mappers> <num_reducers>")
         sys.exit()
 
     input_file = sys.argv[1]
